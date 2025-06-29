@@ -10,23 +10,17 @@ services:
   app-1:
     build:
       context: ..
-    environment:
-      JOB_ENABLED: "false"
     ports:
       - "1112:8080"
 
   app-2:
     build:
       context: ..
-    environment:
-      JOB_ENABLED: "false"
     ports:
       - "1113:8080"
 
   app-3:
     build:
       context: ..
-    environment:
-      JOB_ENABLED: "false"
     ports:
       - "1114:8080"
